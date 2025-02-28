@@ -1,9 +1,4 @@
 
-  // Understanding Dijkstra : 
-  // https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Pseudocode
-  // https://levelup.gitconnected.com/dijkstras-shortest-path-algorithm-in-a-grid-eb505eb3a290
-  // https://stackoverflow.com/questions/56609206/how-do-i-keep-track-of-the-shortest-paths-in-the-dijkstra-algorithm-when-using-a
-  // Dijkstra Algorithm - Super optimized
 
 export async function Dijkstra(maingrid, updateGrid, isWall, startendpos, rownumbers, colnumbers) {
     const startRow = startendpos[0]; // row number of start
